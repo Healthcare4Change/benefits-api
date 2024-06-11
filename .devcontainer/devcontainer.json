@@ -3,7 +3,7 @@
   "service": "app",
   "workspaceFolder": "/workspace",
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "./.devcontainer/updateContentCommand.sh",	
+  "updateContentCommand": "./.devcontainer/init.sh",	
   "postCreateCommand": "pip install --user -r requirements.txt && python manage.py migrate",
   "postAttachCommand": {
     "server": "python manage.py runserver"
