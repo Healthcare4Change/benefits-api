@@ -25,7 +25,7 @@
 		"ghcr.io/dhoeric/features/flyctl:1": {
 			// Must be manually specified because of: https://github.com/dhoeric/features/issues/25
 			// Find new version with: curl -s https://api.github.com/repos/superfly/flyctl/releases/latest | jq -r '.tag_name'
-			"version": "0.2.23"
+			"version": "0.2.69"
 		}
 	}
 }
